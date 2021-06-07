@@ -1,0 +1,80 @@
+﻿.error {
+	color: #D50000;
+	/* padding: 4px 4px 4px 20px; */
+	/* font-size: 10px; */
+	/* font-weight: bold; */
+	/* background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxNnB4IiBo ZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0 cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8x OTk5L3hsaW5rIj48ZGVmcz48cGF0aCBkPSJNMTYsOCBDMTYsMTIuNDE4Mjg0NyAxMi40MTgyODQ3 LDE2IDgsMTYgQzMuNTgxNzE1MjUsMTYgMCwxMi40MTgyODQ3IDAsOCBDMCwzLjU4MTcxNTI1IDMu NTgxNzE1MjUsMCA4LDAgQzEyLjQxODI4NDcsMCAxNiwzLjU4MTcxNTI1IDE2LDggWiBNMTQsOCBD MTQsNC42ODYyODQ3NSAxMS4zMTM3MTUzLDIgOCwyIEM0LjY4NjI4NDc1LDIgMiw0LjY4NjI4NDc1 IDIsOCBDMiwxMS4zMTM3MTUzIDQuNjg2Mjg0NzUsMTQgOCwxNCBDMTEuMzEzNzE1MywxNCAxNCwx MS4zMTM3MTUzIDE0LDggWiBNNyw0IEM3LDMuNDQ3NzE1MjUgNy40NDc3MTUyNSwzIDgsMyBDOC41 NTIyODQ3NSwzIDksMy40NDc3MTUyNSA5LDQgTDksOS4wMDQ0MjY2OSBDOSw5LjU1NjcxMTQ0IDgu NTUyMjg0NzUsMTAuMDA0NDI2NyA4LDEwLjAwNDQyNjcgQzcuNDQ3NzE1MjUsMTAuMDA0NDI2NyA3 LDkuNTU2NzExNDQgNyw5LjAwNDQyNjY5IEw3LDQgWiBNOCwxMyBDNy40NDc3MTUyNSwxMyA3LDEy LjU1MjI4NDcgNywxMiBDNywxMS40NDc3MTUzIDcuNDQ3NzE1MjUsMTEgOCwxMSBDOC41NTIyODQ3 NSwxMSA5LDExLjQ0NzcxNTMgOSwxMiBDOSwxMi41NTIyODQ3IDguNTUyMjg0NzUsMTMgOCwxMyBa IiBpZD0icGF0aC0xIj48L3BhdGg+PC9kZWZzPjxnIGlkPSJJY29uLS8tU3RhdHVzLS8tRXJyb3Ii IHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2 ZW5vZGQiPjxtYXNrIGlkPSJtYXNrLTIiIGZpbGw9IndoaXRlIj48dXNlIHhsaW5rOmhyZWY9IiNw YXRoLTEiPjwvdXNlPjwvbWFzaz48ZyBpZD0iUmVkIiBtYXNrPSJ1cmwoI21hc2stMikiIGZpbGw9 IiNENTAwMDAiPjxwb2x5Z29uIGlkPSJTd2F0Y2giIHBvaW50cz0iMCAwIDE2IDAgMTYgMTYgMCAx NiI+PC9wb2x5Z29uPjwvZz48L2c+PC9zdmc+Cg=="); */
+	/* background-repeat: no-repeat; */
+	/* background-position-y: 2px; */
+	/* margin-top: 2px; */
+}
+
+input.errorborder,
+select.errorborder,
+radio.errorborder
+.errorborder {
+	border: 1px solid #D50000;
+	/* border-radius: 4px */
+}
+
+.ol.errorborder {
+	padding-top: 4px;
+	border-radius: 4px
+}
+
+div.error-banner {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0 25px;
+	position: relative;
+	width: 100%
+}
+
+div.error-banner p {
+	background-color: #D50000;
+	box-sizing: border-box;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	min-height: 40px;
+	padding: 12px 8px 10px 40px;
+	border-radius: 3px;
+	position: relative;
+	top: 50%;
+	width: 100%
+}
+
+div.error-banner p:before {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBkPSJNMTYsOCBDMTYsMTIuNDE4Mjg0NyAxMi40MTgyODQ3LDE2IDgsMTYgQzMuNTgxNzE1MjUsMTYgMCwxMi40MTgyODQ3IDAsOCBDMCwzLjU4MTcxNTI1IDMuNTgxNzE1MjUsMCA4LDAgQzEyLjQxODI4NDcsMCAxNiwzLjU4MTcxNTI1IDE2LDggWiBNMTQsOCBDMTQsNC42ODYyODQ3NSAxMS4zMTM3MTUzLDIgOCwyIEM0LjY4NjI4NDc1LDIgMiw0LjY4NjI4NDc1IDIsOCBDMiwxMS4zMTM3MTUzIDQuNjg2Mjg0NzUsMTQgOCwxNCBDMTEuMzEzNzE1MywxNCAxNCwxMS4zMTM3MTUzIDE0LDggWiBNNyw0IEM3LDMuNDQ3NzE1MjUgNy40NDc3MTUyNSwzIDgsMyBDOC41NTIyODQ3NSwzIDksMy40NDc3MTUyNSA5LDQgTDksOS4wMDQ0MjY2OSBDOSw5LjU1NjcxMTQ0IDguNTUyMjg0NzUsMTAuMDA0NDI2NyA4LDEwLjAwNDQyNjcgQzcuNDQ3NzE1MjUsMTAuMDA0NDI2NyA3LDkuNTU2NzExNDQgNyw5LjAwNDQyNjY5IEw3LDQgWiBNOCwxMyBDNy40NDc3MTUyNSwxMyA3LDEyLjU1MjI4NDcgNywxMiBDNywxMS40NDc3MTUzIDcuNDQ3NzE1MjUsMTEgOCwxMSBDOC41NTIyODQ3NSwxMSA5LDExLjQ0NzcxNTMgOSwxMiBDOSwxMi41NTIyODQ3IDguNTUyMjg0NzUsMTMgOCwxMyBaIiBpZD0icGF0aC0xIi8+PC9kZWZzPjxnIGlkPSJJY29uLS8tU3RhdHVzLS8tRXJyb3IiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxtYXNrIGlkPSJtYXNrLTIiIGZpbGw9IndoaXRlIj48dXNlIHhsaW5rOmhyZWY9IiNwYXRoLTEiLz48L21hc2s+PGcgaWQ9IldoaXRlIiBtYXNrPSJ1cmwoI21hc2stMikiIGZpbGw9IndoaXRlIj48cG9seWdvbiBpZD0iU3dhdGNoIiBwb2ludHM9IjAgMCAxNiAwIDE2IDE2IDAgMTYiLz48L2c+PC9nPjwvc3ZnPg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	content: '';
+	height: 24px;
+	left: 8px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 24px
+}
+
+div.error-banner.multiple-sections {
+	padding: 0;
+	width: 608px
+}
+
+div.error-banner.section {
+	padding: 4px 0 4px;
+}
+
+span.error-text {
+	color: #D50000;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 25px 10px
+}
+

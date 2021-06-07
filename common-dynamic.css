@@ -1,0 +1,25 @@
+body {
+	background: #ffffff;	
+	background-image: url('');
+	background-size: cover;
+}
+
+.order-finished .order-finished-message {
+    padding:50px 50px 30px;
+}
+
+.order-finished-message .title p {
+    margin: 24px 0 26px;
+}
+
+
+.order-finished-message .content:after {
+    content:url(https://cdn.mycorreosecommerce.com/uploads/comandia_correostienda/t/proceso-pedido.png);
+    margin:0 auto;
+    display: block;
+}
+
+.order-finished-message .content p {
+    margin-bottom: 40px;
+   /*display:none;*/
+}
